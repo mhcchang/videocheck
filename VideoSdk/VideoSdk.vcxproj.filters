@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="rtsp">
+      <UniqueIdentifier>{71643b2e-a2c3-495f-b391-29ecf5cbf167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{a28f6ea5-3e89-490f-b38b-9a98cc4db25c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="http">
+      <UniqueIdentifier>{540928db-ce6b-4034-b2aa-00f5182470c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoSdk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoSdkImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoChannel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rtspclient\media_format.h">
+      <Filter>rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtspclient\RtspInterface.h">
+      <Filter>rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtspclient\RTSPStream.h">
+      <Filter>rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="util\lock.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\MD5.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\ObjectLists.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\pubutil.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\rwLock.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\sole.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\sys_inc.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\sys_log.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\defs.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\HardDiskManager.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="http\httpclient.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\mongoose.h">
+      <Filter>http</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoSdk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoSdkImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoChannel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rtspclient\RtspInterface.cpp">
+      <Filter>rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtspclient\RTSPStream.cpp">
+      <Filter>rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="util\MD5.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\pubutil.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\sys_log.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\sys_os.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\HardDiskManager.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="http\httpclient.cpp">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\mongoose.c">
+      <Filter>http</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

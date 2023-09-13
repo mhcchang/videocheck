@@ -1,0 +1,16 @@
+{
+  "DeviceList": [
+    {
+      "DeviceId": "222000001",
+      "rtspUrl": "rtsp://192.168.21.114/stream1"
+    },
+    {
+      "DeviceId": "222000002",
+      "rtspUrl": "rtsp://192.168.21.114/stream2"
+    }
+  ],
+  "Duration": 10,
+  "Immediately": true,
+  "ScheduleTime": "02:00",
+  "MaxThread": 64
+}

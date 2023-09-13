@@ -1,0 +1,37 @@
+{
+  "DeviceList": [
+    {
+      "DeviceId": "222000001",
+      "rtspUrl": "rtsp://192.168.21.114/stream1",
+      "Interval": 30,
+      "Duration": 10,
+      "SegmentTimes": [
+        {
+          "StartTime": "20220901100000",
+          "EndTime": "20220901100500"
+        },
+        {
+          "StartTime": "20220901100600",
+          "EndTime": "20220901101500"
+        }
+      ]
+    },
+    {
+      "DeviceId": "222000002",
+      "rtspUrl": "rtsp://192.168.21.114/stream2",
+      "Interval": 30,
+      "Duration": 10,
+      "SegmentTimes": [
+        {
+          "StartTime": "20220901100000",
+          "EndTime": "20220901100500"
+        },
+        {
+          "StartTime": "20220901100600",
+          "EndTime": "20220901101500"
+        }
+      ]
+    }
+  ],
+  "MaxThread": 64
+}

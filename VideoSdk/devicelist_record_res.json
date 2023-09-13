@@ -1,0 +1,32 @@
+{
+  "RecordIntegrityList": [
+    {
+      "DeviceId": "222000001",
+      "DeviceStatus": "Checked",
+      "CheckResult": [
+        {
+          "StartTime": "20220901100000",
+          "EndTime": "20220901100500"
+        },
+        {
+          "StartTime": "20220901100600",
+          "EndTime": "20220901101500"
+        }
+      ] 
+    },
+    {
+      "DeviceId": "222000002",
+      "DeviceStatus": "Unchecked",
+      "CheckResult": [
+        {
+          "StartTime": "20220901100000",
+          "EndTime": "20220901100500"
+        },
+        {
+          "StartTime": "20220901100600",
+          "EndTime": "20220901101500"
+        }
+      ]
+    }
+  ]
+}
